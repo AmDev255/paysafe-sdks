@@ -1,0 +1,14 @@
+ok  	github.com/AmDev255/paysafe-go	16.390s
+?   	github.com/AmDev255/paysafe-go/examples/auth	[no test files]
+?   	github.com/AmDev255/paysafe-go/examples/control-number	[no test files]
+?   	github.com/AmDev255/paysafe-go/examples/create-payment	[no test files]
+?   	github.com/AmDev255/paysafe-go/examples/customers-and-balance	[no test files]
+?   	github.com/AmDev255/paysafe-go/examples/events	[no test files]
+?   	github.com/AmDev255/paysafe-go/examples/get-payment	[no test files]
+?   	github.com/AmDev255/paysafe-go/examples/list-payments	[no test files]
+?   	github.com/AmDev255/paysafe-go/examples/payment-link	[no test files]
+?   	github.com/AmDev255/paysafe-go/examples/refund	[no test files]
+?   	github.com/AmDev255/paysafe-go/examples/transfer	[no test files]
+?   	github.com/AmDev255/paysafe-go/examples/verify-webhook	[no test files]
+?   	github.com/AmDev255/paysafe-go/examples/webhook-endpoints	[no test files]
+

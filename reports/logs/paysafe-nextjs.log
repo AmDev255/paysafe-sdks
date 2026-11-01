@@ -1,0 +1,56 @@
+
+> paysafe-tz-nextjs@0.1.0 check
+> npm run format:check && npm run lint && npm run typecheck && npm test && npm run build
+
+
+> paysafe-tz-nextjs@0.1.0 format:check
+> prettier --check .
+
+Checking formatting...
+All matched files use Prettier code style!
+
+> paysafe-tz-nextjs@0.1.0 lint
+> eslint .
+
+
+> paysafe-tz-nextjs@0.1.0 typecheck
+> tsc --noEmit
+
+
+> paysafe-tz-nextjs@0.1.0 test
+> vitest run
+
+
+[1m[7m[36m RUN [39m[27m[22m [36mv2.1.9 [39m[90mE:/My project/paysafe-sdks/sdks/paysafe-nextjs[39m
+
+ [32m✓[39m tests/status-client.test.ts [2m([22m[2m7 tests[22m[2m)[22m[90m 31[2mms[22m[39m
+ [32m✓[39m tests/webhook.test.ts [2m([22m[2m8 tests[22m[2m)[22m[90m 44[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m2 passed[39m[22m[90m (2)[39m
+[2m      Tests [22m [1m[32m15 passed[39m[22m[90m (15)[39m
+[2m   Start at [22m 10:01:16
+[2m   Duration [22m 2.52s[2m (transform 706ms, setup 0ms, collect 824ms, tests 75ms, environment 1ms, prepare 2.78s)[22m
+
+
+> paysafe-tz-nextjs@0.1.0 build
+> tsup
+
+[34mCLI[39m Building entry: src/index.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.5.1
+[34mCLI[39m Using tsup config: E:\My project\paysafe-sdks\sdks\paysafe-nextjs\tsup.config.ts
+[34mCLI[39m Target: node20
+[34mCLI[39m Cleaning output folder
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist\index.cjs     [22m[32m7.96 KB[39m
+[32mCJS[39m [1mdist\index.cjs.map [22m[32m15.74 KB[39m
+[32mCJS[39m ⚡️ Build success in 63ms
+[32mESM[39m [1mdist\index.js     [22m[32m6.45 KB[39m
+[32mESM[39m [1mdist\index.js.map [22m[32m15.11 KB[39m
+[32mESM[39m ⚡️ Build success in 64ms
+[34mDTS[39m Build start
+[32mDTS[39m ⚡️ Build success in 2178ms
+[32mDTS[39m [1mdist\index.d.ts  [22m[32m4.85 KB[39m
+[32mDTS[39m [1mdist\index.d.cts [22m[32m4.85 KB[39m
+

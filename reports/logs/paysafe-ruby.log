@@ -1,0 +1,16 @@
+Inspecting 36 files
+....................................
+
+36 files inspected, no offenses detected
+...............................................................................................................
+
+Finished in 19.06 seconds (files took 24.16 seconds to load)
+111 examples, 0 failures
+
+  Successfully built RubyGem
+  Name: paysafe-tz
+  Version: 0.1.0
+  File: paysafe-tz-0.1.0.gem
+
+Warning: The `Naming/PredicateName` cop has been renamed to `Naming/PredicatePrefix`.
+(obsolete configuration found in .rubocop.yml, please update it)

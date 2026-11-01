@@ -1,0 +1,67 @@
+
+> paysafe-tz@0.1.0 check
+> npm run format:check && npm run lint && npm run typecheck && npm test && npm run build
+
+
+> paysafe-tz@0.1.0 format:check
+> prettier --check .
+
+Checking formatting...
+All matched files use Prettier code style!
+
+> paysafe-tz@0.1.0 lint
+> eslint .
+
+
+> paysafe-tz@0.1.0 typecheck
+> tsc --noEmit
+
+
+> paysafe-tz@0.1.0 test
+> vitest run
+
+
+[1m[7m[36m RUN [39m[27m[22m [36mv2.1.9 [39m[90mE:/My project/paysafe-sdks/sdks/paysafe-node[39m
+
+ [32m✓[39m tests/errors.test.ts [2m([22m[2m18 tests[22m[2m)[22m[90m 123[2mms[22m[39m
+ [32m✓[39m tests/client.test.ts [2m([22m[2m8 tests[22m[2m)[22m[90m 116[2mms[22m[39m
+ [32m✓[39m tests/webhooks.test.ts [2m([22m[2m8 tests[22m[2m)[22m[90m 194[2mms[22m[39m
+ [32m✓[39m tests/page-polling.test.ts [2m([22m[2m6 tests[22m[2m)[22m[90m 51[2mms[22m[39m
+ [32m✓[39m tests/security.test.ts [2m([22m[2m28 tests[22m[2m)[22m[90m 66[2mms[22m[39m
+ [32m✓[39m tests/retry.test.ts [2m([22m[2m17 tests[22m[2m)[22m[90m 276[2mms[22m[39m
+ [32m✓[39m tests/contract.test.ts [2m([22m[2m59 tests[22m[2m)[22m[33m 776[2mms[22m[39m
+ [32m✓[39m tests/integration.test.ts [2m([22m[2m5 tests[22m[2m)[22m[33m 16534[2mms[22m[39m
+   [33m[2m✓[22m[39m sandbox integration[2m > [22mreads balance and transactions [33m1705[2mms[22m[39m
+   [33m[2m✓[22m[39m sandbox integration[2m > [22mruns the payment lifecycle with sandbox suffixes [33m11145[2mms[22m[39m
+   [33m[2m✓[22m[39m sandbox integration[2m > [22mmaps validation and not-found errors [33m541[2mms[22m[39m
+   [33m[2m✓[22m[39m sandbox integration[2m > [22mround-trips a webhook endpoint [33m1379[2mms[22m[39m
+   [33m[2m✓[22m[39m sandbox integration[2m > [22mreads events and customers [33m1761[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m8 passed[39m[22m[90m (8)[39m
+[2m      Tests [22m [1m[32m149 passed[39m[22m[90m (149)[39m
+[2m   Start at [22m 09:58:40
+[2m   Duration [22m 21.16s[2m (transform 1.93s, setup 0ms, collect 6.05s, tests 18.14s, environment 5ms, prepare 13.09s)[22m
+
+
+> paysafe-tz@0.1.0 build
+> tsup
+
+[34mCLI[39m Building entry: src/index.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.5.1
+[34mCLI[39m Using tsup config: E:\My project\paysafe-sdks\sdks\paysafe-node\tsup.config.ts
+[34mCLI[39m Target: node20
+[34mCLI[39m Cleaning output folder
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist\index.js     [22m[32m47.77 KB[39m
+[32mESM[39m [1mdist\index.js.map [22m[32m129.16 KB[39m
+[32mESM[39m ⚡️ Build success in 763ms
+[32mCJS[39m [1mdist\index.cjs     [22m[32m49.51 KB[39m
+[32mCJS[39m [1mdist\index.cjs.map [22m[32m129.21 KB[39m
+[32mCJS[39m ⚡️ Build success in 763ms
+[34mDTS[39m Build start
+[32mDTS[39m ⚡️ Build success in 3184ms
+[32mDTS[39m [1mdist\index.d.ts  [22m[32m29.50 KB[39m
+[32mDTS[39m [1mdist\index.d.cts [22m[32m29.50 KB[39m
+

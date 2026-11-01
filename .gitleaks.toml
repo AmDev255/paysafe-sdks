@@ -1,0 +1,27 @@
+title = "paysafe-sdks"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Documented placeholders used by every SDK test suite; not real credentials"
+regexes = [
+  '''paysafe_test_9f2Kx7Qm3Rt8Vw2Yz5Ab1Cd4Ef6Gh9Jk''',
+  '''paysafe_live_9f2Kx7Qm3Rt8Vw2Yz5Ab1Cd4Ef6Gh9Jk''',
+  '''paysafe_webhook_test_2f4c9b7e1a3d5f6c8e0b2a4d6f8c1e3b''',
+  '''paysafe_webhook_test_0000000000000000000000000000000f''',
+  '''whsec_test_2f4c9b7e1a3d5f6c8e0b2a4d6f8c1e3b''',
+]
+paths = [
+  '''\.gradle-home/''',
+  '''\.nuget/''',
+  '''\.pub-cache/''',
+  '''\.dart_tool/''',
+  '''\.next/''',
+  '''node_modules/''',
+  '''vendor/''',
+  '''\.venv/''',
+  '''\.m2/''',
+  '''\.php-cs-fixer\.cache''',
+  '''\.phpunit\.cache/''',
+]

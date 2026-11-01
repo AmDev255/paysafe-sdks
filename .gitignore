@@ -1,0 +1,4 @@
+sdks/
+reports/gitleaks.json
+.env
+node_modules/
