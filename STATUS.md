@@ -75,4 +75,4 @@ Notes: user decision 2026-11-01 replaced the separate TypeScript repo with a Nex
 ## S16 — Central directory and final report
 - [x] Central repo content: README with comparison/install table, CONTRIBUTING.md, docs/choosing-an-sdk.md, coverage-matrix.md, contract/, reports/, tools/, template/ — 2026-11-01
 - [x] coverage-matrix.md Evidence section: repo URLs, CI run URLs, test counts, report and log paths — 2026-11-01
-- [ ] Final report delivered to the user; package publication left pending explicit authorization
+- [x] Central repo pushed (e2c083e, CI green) and final report delivered 2026-11-01. Package publication (npm, PyPI, Packagist, Maven Central, NuGet, RubyGems, pub.dev) stays pending explicit authorization; release.yml publish jobs are disabled in every repo. Open follow-ups: user deploys paysafe docs and checks the examples pages; backend owner aligns the route schemas for G14 (cancel requires Idempotency-Key) and G15 (fee/net null on create); transfer repos to a PaySafe org if one is created.
